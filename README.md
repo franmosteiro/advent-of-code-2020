@@ -8,7 +8,7 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✔ [Day 1: Report Repair](https://github.com/franmosteiro/aoc-2020-kotlin/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day01Test.kt)| 🌟 | 🌟 |
+| ✔ [Day 1: Report Repair](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day01Test.kt)| 🌟 | 🌟 |
 | [Day 2: TBD]()| | |
 | [Day 3: TBD]()| | |
 | [Day 4: TBD]()| | |
