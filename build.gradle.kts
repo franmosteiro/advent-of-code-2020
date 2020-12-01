@@ -20,6 +20,7 @@ tasks {
             freeCompilerArgs = listOf("-Xjsr305=strict")
         }
     }
+
     test {
         useJUnitPlatform()
     }
