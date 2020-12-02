@@ -5,8 +5,8 @@ import java.net.URI
 
 internal object Resources {
 
-    fun resourceAsList(fileName: String): List<Int> =
-            File(fileName.toURI()).readLines().map { it.toInt() }
+    fun resourceAsList(fileName: String): List<String> =
+            File(fileName.toURI()).readLines()
 
     private fun String.toURI(): URI =
             Resources.javaClass.classLoader.getResource(this)?.toURI() ?: throw IllegalArgumentException("Cannot find Resource: $this")

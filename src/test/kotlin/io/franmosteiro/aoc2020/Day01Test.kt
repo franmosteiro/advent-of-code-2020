@@ -9,16 +9,17 @@ import org.junit.jupiter.api.Test
 @DisplayName("Day 1")
 class Day01Test {
 
-    //Given
-    val inputs = listOf(1721, 979, 366, 299, 675, 1456)
-
     @Nested
     @DisplayName("Part One")
     inner class Part1 {
         @Test
         fun `Test example input (1721, 979, 366, 299, 675, 1456)`() {
+
+            // Given
+            val list = Resources.resourceAsList("testFile01.in")
+
             // When
-            val answer = Day01(inputs).resolvePartOne()
+            val answer = Day01(list).resolvePartOne()
 
             // Then
             assertThat(answer).isEqualTo(514579)
@@ -39,8 +40,12 @@ class Day01Test {
     inner class Part2 {
         @Test
         fun `Test example input (1721, 979, 366, 299, 675, 1456)`() {
+
+            // Given
+            val list = Resources.resourceAsList("testFile01.in")
+
             // When
-            val answer = Day01(inputs).resolvePartTwo()
+            val answer = Day01(list).resolvePartTwo()
 
             // Then
             assertThat(answer).isEqualTo(241861950)

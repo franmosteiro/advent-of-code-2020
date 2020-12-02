@@ -9,9 +9,9 @@ class ResourcesTest {
 
     @Test
     fun `reads lines`() {
-        assertThat(resourceAsList("testFile1.in"))
+        assertThat(resourceAsList("testFile01.in"))
                 .hasSize(3)
-                .containsExactly(1, 2, 3)
+                .containsExactly("1721", "979", "366", "299", "675", "1456")
     }
 
     @Test
