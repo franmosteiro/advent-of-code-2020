@@ -36,3 +36,8 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 | [Day 23: 🚧 ]()| | |
 | [Day 24: 🚧 ]()| | |
 | [Day 25: 🚧 ]()| | |
+
+
+## Acknowledgements
+
+Based on [@adriennetacke](https://github.com/adriennetacke)'s great [README](https://github.com/adriennetacke/advent-of-code-2020/blob/main/README.md) file for AoC :) 
