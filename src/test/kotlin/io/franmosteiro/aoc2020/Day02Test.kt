@@ -22,16 +22,16 @@ class Day02Test {
             val answer = Day02(listOfPasswords).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo(514579)
+            assertThat(answer).isEqualTo(2)
         }
 
         @Test
         fun `Test input file Day02in`() {
             // When
-            //val answer = Day02(Resources.resourceAsList("Day02.in")).resolvePartOne()
+            val answer = Day02(Resources.resourceAsList("Day02.in")).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo()
+            assertThat(answer).isEqualTo(396)
         }
     }
 
@@ -45,10 +45,10 @@ class Day02Test {
             val list = Resources.resourceAsList("testFile02.in")
 
             // When
-            //val answer = Day02(list).resolvePartTwo()
+            val answer = Day02(list).resolvePartTwo()
 
             // Then
-           //assertThat(answer).isEqualTo(241861950)
+            assertThat(answer).isEqualTo(3)
         }
 
         @Test
