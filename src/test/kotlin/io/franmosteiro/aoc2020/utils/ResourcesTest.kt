@@ -10,7 +10,7 @@ class ResourcesTest {
     @Test
     fun `reads lines`() {
         assertThat(resourceAsList("testFile01.in"))
-                .hasSize(3)
+                .hasSize(6)
                 .containsExactly("1721", "979", "366", "299", "675", "1456")
     }
 
