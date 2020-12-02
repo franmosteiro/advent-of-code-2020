@@ -6,22 +6,26 @@ package io.franmosteiro.aoc2020
  */
 class Day02(listOfPasswords: List<String>) {
 
-    private val parsedOcurrences = listOfPasswords.map{
-        val (ocurrences, keyChar, password) = it.split(" ")
-        val (minOcur, maxOcur) = ocurrences.split("-").map { it.toInt() }
-        Ocurrence(minOcur, maxOcur, keyChar.first(), password)
+    private val parsedOcurrences = listOfPasswords.map{ line ->
+        val (ocurrences, keyChar, password) = line.split(" ")
+        val (first, last) = ocurrences.split("-").map { it.toInt() }
+        Ocurrence(first, last, keyChar.first(), password)
     }
 
     fun resolvePartOne(): Int {
-        return parsedOcurrences.count{ (minOcur, maxOcur, keyChar, password) ->
-            password.count { it == keyChar } in minOcur..maxOcur
+        return parsedOcurrences.count{ ocurrence ->
+            ocurrence.password.count { it == ocurrence.keyChar } in ocurrence.first..ocurrence.last
         }
     }
 
     fun resolvePartTwo(): Int {
-        throw IllegalStateException("No matches found")
+        return parsedOcurrences.count{ ocurrence ->
+            val (isInFirst, isInLast) = (ocurrence.password[ocurrence.first - 1] == ocurrence.keyChar) to
+                    (ocurrence.password[ocurrence.last - 1] == ocurrence.keyChar)
+            isInFirst xor isInLast
+        }
     }
 
-    private data class Ocurrence(val startPosition: Int, val endPosition: Int, val keyChar: Char, val password: String)
+    private data class Ocurrence(val first: Int, val last: Int, val keyChar: Char, val password: String)
 }
 

@@ -48,16 +48,16 @@ class Day02Test {
             val answer = Day02(list).resolvePartTwo()
 
             // Then
-            assertThat(answer).isEqualTo(3)
+            assertThat(answer).isEqualTo(1)
         }
 
         @Test
         fun `Test input file Day02in`() {
             // When
-            //val answer = Day02(Resources.resourceAsList("Day02.in")).resolvePartTwo()
+            val answer = Day02(Resources.resourceAsList("Day02.in")).resolvePartTwo()
 
             // Then
-            //assertThat(answer).isEqualTo(32858450)
+            assertThat(answer).isEqualTo(428)
         }
     }
 }
