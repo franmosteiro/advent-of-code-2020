@@ -6,7 +6,7 @@ package io.franmosteiro.aoc2020
  */
 class Day02(input: List<String>) {
 
-    private val listOfpwds: List<String> = input
+    private val listOfPasswords: List<String> = input
 
     fun resolvePartOne(): String {
          throw IllegalStateException("No matches found")

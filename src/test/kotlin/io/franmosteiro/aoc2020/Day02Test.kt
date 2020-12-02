@@ -13,13 +13,13 @@ class Day02Test {
     @DisplayName("Part One")
     inner class Part1 {
         @Test
-        fun `Test example input`() {
+        fun `Test example listOfPasswords`() {
 
             // Given
-            val list = Resources.resourceAsList("testFile02.in")
+            val listOfPasswords = Resources.resourceAsList("testFile02.in")
 
             // When
-            //val answer = Day02(list).resolvePartOne()
+            val answer = Day02(listOfPasswords).resolvePartOne()
 
             // Then
             //assertThat(answer).isEqualTo(514579)
