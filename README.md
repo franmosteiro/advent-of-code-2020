@@ -11,28 +11,28 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✔ [Day 1: Report Repair](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day01Test.kt)| 🌟 | 🌟 |
-| [Day 2: TBD]()| | |
-| [Day 3: TBD]()| | |
-| [Day 4: TBD]()| | |
-| [Day 5: TBD]()| | |
-| [Day 6: TBD]()| | |
-| [Day 7: TBD]()| | |
-| [Day 8: TBD]()| | |
-| [Day 9: TBD]()| | |
-| [Day 10: TBD]()| | |
-| [Day 11: TBD]()| | |
-| [Day 12: TBD]()| | |
-| [Day 13: TBD]()| | |
-| [Day 14: TBD]()| | |
-| [Day 15: TBD]()| | |
-| [Day 16: TBD]()| | |
-| [Day 17: TBD]()| | |
-| [Day 18: TBD]()| | |
-| [Day 19: TBD]()| | |
-| [Day 20: TBD]()| | |
-| [Day 21: TBD]()| | |
-| [Day 22: TBD]()| | |
-| [Day 23: TBD]()| | |
-| [Day 24: TBD]()| | |
-| [Day 25: TBD]()| | |
+| ✅ [Day 1: Report Repair](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day01Test.kt)| 🌟 | 🌟 |
+| ✅ [Day 2: Password Philosophy](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day02Test.kt)| 🌟 | 🌟 |
+| [Day 3: 🚧 ]()| | |
+| [Day 4: 🚧 ]()| | |
+| [Day 5: 🚧 ]()| | |
+| [Day 6: 🚧 ]()| | |
+| [Day 7: 🚧 ]()| | |
+| [Day 8: 🚧 ]()| | |
+| [Day 9: 🚧 ]()| | |
+| [Day 10: 🚧 ]()| | |
+| [Day 11: 🚧 ]()| | |
+| [Day 12: 🚧 ]()| | |
+| [Day 13: 🚧 ]()| | |
+| [Day 14: 🚧 ]()| | |
+| [Day 15: 🚧 ]()| | |
+| [Day 16: 🚧 ]()| | |
+| [Day 17: 🚧 ]()| | |
+| [Day 18: 🚧 ]()| | |
+| [Day 19: 🚧 ]()| | |
+| [Day 20: 🚧 ]()| | |
+| [Day 21: 🚧 ]()| | |
+| [Day 22: 🚧 ]()| | |
+| [Day 23: 🚧 ]()| | |
+| [Day 24: 🚧 ]()| | |
+| [Day 25: 🚧 ]()| | |
