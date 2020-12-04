@@ -9,25 +9,33 @@ import java.awt.Point
 class Day03(list: List<String>) {
 
     private val listOfPoints = list
+    private val gridWidth = listOfPoints.first().length
+    private val gridHeight = listOfPoints.size
 
-    fun resolvePartOne(): Int {
-        return locateTrees(listOfPoints, Point(3,1))
+    fun resolvePartOne(): Long =
+            locateTrees(Point(3,1))
+
+    fun resolvePartTwo(): Long {
+        return listOf(
+                Point(1,1),
+                Point(3,1),
+                Point(5,1),
+                Point(7,1),
+                Point(1,2),
+        ).map{
+            locateTrees(it)
+        }.fold(1L) { totalAccTrees, currentSlopeAccTrees -> totalAccTrees * currentSlopeAccTrees }
     }
 
-    fun resolvePartTwo(): Int {
-        throw IllegalStateException("No matches found")
-    }
-
-    private fun locateTrees(listOfPoints: List<String>, slope: Point): Int {
+    private fun locateTrees(slope: Point): Long {
         val currentLocation = Point(0, 0)
-        var locatedTrees = 0
+        var locatedTrees: Long = 0
 
-        while (currentLocation.y < listOfPoints.size) {
+        while (currentLocation.y < gridHeight) {
             if (listOfPoints[currentLocation.y][currentLocation.x] == '#') {
                 locatedTrees++
             }
-            val currentY = listOfPoints[currentLocation.y].length
-            currentLocation.x = (currentLocation.x + slope.x) % currentY
+            currentLocation.x = (currentLocation.x + slope.x) % gridWidth
             currentLocation.y += slope.y
         }
 
