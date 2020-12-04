@@ -8,7 +8,7 @@ import java.awt.Point
  */
 class Day03(list: List<String>) {
 
-    val listOfPoints = list
+    private val listOfPoints = list
 
     fun resolvePartOne(): Int {
         return locateTrees(listOfPoints, Point(3,1))
