@@ -13,7 +13,7 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 |---|:---:|:---:|
 | ✅ [Day 1: Report Repair](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day01Test.kt)| 🌟 | 🌟 |
 | ✅ [Day 2: Password Philosophy](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day02Test.kt)| 🌟 | 🌟 |
-| [Day 3: 🚧 ]()| | |
+| ✅ [Day 3: Toboggan Trajectory](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/test/kotlin/io/franmosteiro/aoc2020/Day03Test.kt)| 🌟 | 🌟 |
 | [Day 4: 🚧 ]()| | |
 | [Day 5: 🚧 ]()| | |
 | [Day 6: 🚧 ]()| | |
