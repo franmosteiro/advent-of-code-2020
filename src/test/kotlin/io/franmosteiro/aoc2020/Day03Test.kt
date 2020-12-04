@@ -26,7 +26,7 @@ class Day03Test {
             val answer = Day03(list).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo(2)
+            assertThat(answer).isEqualTo(7)
         }
 
         @Test
@@ -35,7 +35,7 @@ class Day03Test {
             val answer = Day03(Resources.resourceAsList("Day03.in")).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo(396)
+            assertThat(answer).isEqualTo(207)
         }
     }
 
@@ -52,7 +52,7 @@ class Day03Test {
             val answer = Day03(list).resolvePartTwo()
 
             // Then
-            //assertThat(answer).isEqualTo(1)
+            //assertThat(answer).isEqualTo(336)
         }
 
         @Test
