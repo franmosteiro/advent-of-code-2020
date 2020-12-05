@@ -20,10 +20,10 @@ class Day04Test {
         fun `Test example listOf`() {
 
             // Given
-            val list = Resources.resourceAsList("testFile04.in")
+            val input = Resources.resourceAsText("testFile04.in")
 
             // When
-            val answer = Day04(list).resolvePartOne()
+            val answer = Day04(input).resolvePartOne()
 
             // Then
             assertThat(answer).isEqualTo(2)
@@ -32,10 +32,10 @@ class Day04Test {
         @Test
         fun `Test input file Day04in`() {
             // When
-            val answer = Day04(Resources.resourceAsList("Day04.in")).resolvePartOne()
+            val answer = Day04(Resources.resourceAsText("Day04.in")).resolvePartOne()
 
             // Then
-            assertThat(answer).isEqualTo(207L)
+            assertThat(answer).isEqualTo(228)
         }
     }
 
@@ -46,10 +46,10 @@ class Day04Test {
         fun `Test example input`() {
 
             // Given
-            val list = Resources.resourceAsList("testFile04.in")
+            val input = Resources.resourceAsText("testFile04.in")
 
             // When
-            val answer = Day04(list).resolvePartTwo()
+            val answer = Day04(input).resolvePartTwo()
 
             // Then
             assertThat(answer).isEqualTo(252L)
@@ -58,7 +58,7 @@ class Day04Test {
         @Test
         fun `Test input file Day03in`() {
             // When
-            val answer = Day03(Resources.resourceAsList("Day04.in")).resolvePartTwo()
+            val answer = Day04(Resources.resourceAsText("Day04.in")).resolvePartTwo()
 
             // Then
             assertThat(answer).isEqualTo(2655892800L)
