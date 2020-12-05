@@ -6,7 +6,7 @@ package io.franmosteiro.aoc2020
  */
 class Day04(input: String) {
 
-    val passportStream = input
+    private val passportStream = input
 
     fun resolvePartOne(): Int {
 
