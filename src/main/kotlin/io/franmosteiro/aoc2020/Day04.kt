@@ -6,17 +6,21 @@ package io.franmosteiro.aoc2020
  */
 class Day04(input: String) {
 
-    private val requiredFields = listOf("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
+    val passportStream = input
 
-    private val passports = input.split("\\n\\n".toRegex()).map { line ->
-        line.split("\\s".toRegex()).associate {
-            val (field, value) = it.split(":")
-            field to value
+    fun resolvePartOne(): Int {
+
+        val requiredFields = listOf("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
+
+        val passports = passportStream.split("\\n\\n".toRegex()).map { line ->
+            line.split("\\s".toRegex()).associate {
+                val (field, value) = it.split(":")
+                field to value
+            }
         }
-    }
 
-    fun resolvePartOne(): Int =
-        passports.count { passport -> requiredFields.all{ it in passport }}
+        return passports.count { passport -> requiredFields.all { it in passport } }
+    }
 
     fun resolvePartTwo(): Long {
         throw IllegalStateException("No matches found")
