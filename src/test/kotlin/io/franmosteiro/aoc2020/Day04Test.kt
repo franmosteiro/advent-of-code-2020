@@ -26,7 +26,7 @@ class Day04Test {
             val answer = Day04(input).resolvePartOne()
 
             // Then
-            assertThat(answer).isEqualTo(2)
+            assertThat(answer).isEqualTo(4)
         }
 
         @Test
