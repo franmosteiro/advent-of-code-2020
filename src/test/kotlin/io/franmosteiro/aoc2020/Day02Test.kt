@@ -6,6 +6,10 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 
+/**
+ * Advent of Code 2020 - Day 2: Password Philosophy -
+ * Problem Description: http://adventofcode.com/2020/day/2
+ */
 @DisplayName("Day 2")
 class Day02Test {
 
