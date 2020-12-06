@@ -1,6 +1,7 @@
 package io.franmosteiro.aoc2020
 
 import io.franmosteiro.aoc2020.utils.Resources
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
@@ -25,16 +26,16 @@ class Day05Test {
             val answer = Day05(list).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo(2)
+            assertThat(answer).isEqualTo(357)
         }
 
         @Test
         fun `Test input file Day05in`() {
             // When
-            val answer = Day02(Resources.resourceAsList("Day05.in")).resolvePartOne()
+            val answer = Day05(Resources.resourceAsList("Day05.in")).resolvePartOne()
 
             // Then
-            //assertThat(answer).isEqualTo(396)
+            assertThat(answer).isEqualTo(976)
         }
     }
 
