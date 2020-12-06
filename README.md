@@ -14,8 +14,8 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 | ✅ [Day 1: Report Repair](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day01.kt)| 🌟 | 🌟 |
 | ✅ [Day 2: Password Philosophy](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day02.kt)| 🌟 | 🌟 |
 | ✅ [Day 3: Toboggan Trajectory](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day03.kt)| 🌟 | 🌟 |
-| ✅ [Day 4: Passport Processing ](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day04.kt)| 🌟 | 🌟 |
-| [Day 5: 🚧 ]()| | |
+| ✅ [Day 4: Passport Processing](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day04.kt)| 🌟 | 🌟 |
+| ✅ [Day 5: Binary Boarding](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day05.kt)| 🌟 | 🌟 |
 | [Day 6: 🚧 ]()| | |
 | [Day 7: 🚧 ]()| | |
 | [Day 8: 🚧 ]()| | |
