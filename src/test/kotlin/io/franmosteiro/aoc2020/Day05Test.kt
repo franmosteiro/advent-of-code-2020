@@ -42,26 +42,14 @@ class Day05Test {
     @Nested
     @DisplayName("Part Two")
     inner class Part2 {
-        @Test
-        fun `Test example input`() {
-
-            // Given
-            val list = Resources.resourceAsList("testFile05.in")
-
-            // When
-            val answer = Day05(list).resolvePartTwo()
-
-            // Then
-            //assertThat(answer).isEqualTo(1)
-        }
 
         @Test
-        fun `Test input file Day02in`() {
+        fun `Test input file Day05in`() {
             // When
             val answer = Day05(Resources.resourceAsList("Day05.in")).resolvePartTwo()
 
             // Then
-            //assertThat(answer).isEqualTo(428)
+            assertThat(answer).isEqualTo(685)
         }
     }
 }

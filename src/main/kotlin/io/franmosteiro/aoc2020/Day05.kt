@@ -6,9 +6,11 @@ package io.franmosteiro.aoc2020
  */
 class Day05(input: List<String>) {
 
-    val seatsList = input
+    private val seatsList = input
 
-    private fun parseSeatsList(): List<Int> {
+    val rowFactorRange = (1..128 * 8)
+
+    private fun takenSeatsList(): List<Int> {
 
         var row: Int
         var column: Int
@@ -26,13 +28,13 @@ class Day05(input: List<String>) {
 
     }
 
-    fun resolvePartOne(): Int = parseSeatsList().maxOrNull() ?: 0
+    fun resolvePartOne(): Int = takenSeatsList().maxOrNull() ?: 0
 
-    fun resolvePartTwo(): Int {
-        throw IllegalStateException("No matches found")
-    }
-
-
+    fun resolvePartTwo(): Int = takenSeatsList().let { takenSeat ->
+        rowFactorRange.first {
+                !takenSeat.contains(it) &&
+                        (takenSeat.contains(it - 1) && takenSeat.contains(it + 1)) }
+        }
 
 }
 
