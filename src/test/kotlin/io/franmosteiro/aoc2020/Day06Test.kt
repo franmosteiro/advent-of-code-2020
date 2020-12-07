@@ -44,12 +44,25 @@ class Day06Test {
     inner class Part2 {
 
         @Test
-        fun `Test input file Day06sin`() {
+        fun `Test example input`() {
+
+            // Given
+            val input = Resources.resourceAsText("testFile06.in")
+
             // When
-            val answer = Day06(Resources.resourceAsText("Day05.in")).resolvePartTwo()
+            val answer = Day06(input).resolvePartTwo()
 
             // Then
-            assertThat(answer).isEqualTo(685)
+            assertThat(answer).isEqualTo(6)
+        }
+
+        @Test
+        fun `Test input file Day06sin`() {
+            // When
+            val answer = Day06(Resources.resourceAsText("Day06.in")).resolvePartTwo()
+
+            // Then
+            assertThat(answer).isEqualTo(3464)
         }
     }
 }
