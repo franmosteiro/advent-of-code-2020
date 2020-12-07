@@ -10,20 +10,20 @@ import org.junit.jupiter.api.Test
  * Advent of Code 2020 - Day 6: Custom Customs -
  * Problem Description: http://adventofcode.com/2020/day/6
  */
-@DisplayName("Day 6s")
+@DisplayName("Day 6")
 class Day06Test {
 
     @Nested
     @DisplayName("Part One")
     inner class Part1 {
         @Test
-        fun `Test example list`() {
+        fun `Test example input`() {
 
             // Given
-            val list = Resources.resourceAsList("testFile06.in")
+            val input = Resources.resourceAsText("testFile06.in")
 
             // When
-            val answer = Day05(list).resolvePartOne()
+            val answer = Day06(input).resolvePartOne()
 
             // Then
             assertThat(answer).isEqualTo(11)
@@ -32,10 +32,10 @@ class Day06Test {
         @Test
         fun `Test input file Day06in`() {
             // When
-            val answer = Day06(Resources.resourceAsList("Day06.in")).resolvePartOne()
+            val answer = Day06(Resources.resourceAsText("Day06.in")).resolvePartOne()
 
             // Then
-            assertThat(answer).isEqualTo(976)
+            assertThat(answer).isEqualTo(6878)
         }
     }
 
@@ -46,7 +46,7 @@ class Day06Test {
         @Test
         fun `Test input file Day06sin`() {
             // When
-            val answer = Day06(Resources.resourceAsList("Day05.in")).resolvePartTwo()
+            val answer = Day06(Resources.resourceAsText("Day05.in")).resolvePartTwo()
 
             // Then
             assertThat(answer).isEqualTo(685)
