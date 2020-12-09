@@ -35,7 +35,7 @@ class Day08Test {
             val answer = Day08(Resources.resourceAsList("Day08.in")).resolvePartOne()
 
             // Then
-            assertThat(answer).isEqualTo(-1)
+            assertThat(answer).isEqualTo(1814)
         }
     }
 
