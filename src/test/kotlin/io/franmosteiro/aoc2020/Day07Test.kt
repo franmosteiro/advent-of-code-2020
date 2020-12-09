@@ -32,7 +32,7 @@ class Day07Test {
         @Test
         fun `Test input file Day07in`() {
             // When
-            val answer = Day05(Resources.resourceAsList("Day07.in")).resolvePartOne()
+            val answer = Day07(Resources.resourceAsList("Day07.in")).resolvePartOne()
 
             // Then
             assertThat(answer).isEqualTo(-1)
