@@ -1,6 +1,5 @@
 package io.franmosteiro.aoc2020
 
-import java.util.*
 /**
  * Advent of Code 2020 - Day 7: Handy Haversacks -
  * Problem Description: http://adventofcode.com/2020/day/7
