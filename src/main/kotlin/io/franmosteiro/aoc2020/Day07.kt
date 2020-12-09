@@ -37,14 +37,11 @@ class Day07(input: List<String>) {
         allBags = bags.map { buildRules(it.color) }
     }
 
-    fun resolvePartOne(): Int {
+    fun resolvePartOne(): Int =
+            allBags.count { it.canHold(MY_BAG) }
 
-        return allBags.count {
-            it.canHold(MY_BAG)
-        }
-    }
-
-    fun resolvePartTwo(): Int = -1
+    fun resolvePartTwo(): Int =
+            allBags.first { it.color == MY_BAG }.numContains()
 
 
     data class Bag(val color : String,
@@ -52,6 +49,12 @@ class Day07(input: List<String>) {
 
         fun canHold(what: String): Boolean {
             return contains.any { it.second.color == what || it.second.canHold(what) }
+        }
+
+        fun numContains(): Int {
+            return contains.sumBy {
+                it.first * (it.second.numContains() + 1)
+            }
         }
 
     }
