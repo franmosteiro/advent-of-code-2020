@@ -23,7 +23,7 @@ class Day09Test {
             val list = Resources.resourceAsList("testFile09.in")
 
             // When
-            val answer = Day08(list).resolvePartOne()
+            val answer = Day09(list).resolvePartOne()
 
             // Then
             assertThat(answer).isEqualTo(127)
@@ -32,10 +32,10 @@ class Day09Test {
         @Test
         fun `Test input file Day09in`() {
             // When
-            val answer = Day09(Resources.resourceAsList("Day09.in")).resolvePartOne()
+            val answer = Day09(Resources.resourceAsList("Day09.in")).resolvePartOne(25)
 
             // Then
-            assertThat(answer).isEqualTo(-1)
+            assertThat(answer).isEqualTo(1398413738)
         }
     }
 
