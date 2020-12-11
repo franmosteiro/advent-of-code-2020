@@ -16,10 +16,10 @@ Advent of Code 2020 🎄 Kotlin Solutions(?) xD
 | ✅ [Day 3: Toboggan Trajectory](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day03.kt)| 🌟 | 🌟 |
 | ✅ [Day 4: Passport Processing](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day04.kt)| 🌟 | 🌟 |
 | ✅ [Day 5: Binary Boarding](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day05.kt)| 🌟 | 🌟 |
-| [Day 6: 🚧 ]()| | |
-| [Day 7: 🚧 ]()| | |
-| [Day 8: 🚧 ]()| | |
-| [Day 9: 🚧 ]()| | |
+| ✅ [Day 6: Custom Customs](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day06.kt)| 🌟 | 🌟 |
+| ✅ [Day 7: Handy Haversacks](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day07.kt)| 🌟 | 🌟 |
+| ✅ [Day 8: Handheld Halting](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day08.kt)| 🌟 | 🌟 |
+| ✅ [Day 9: Encoding Error](https://github.com/franmosteiro/advent-of-code-2020/tree/main/src/main/kotlin/io/franmosteiro/aoc2020/Day09.kt)| 🌟 | 🌟 |
 | [Day 10: 🚧 ]()| | |
 | [Day 11: 🚧 ]()| | |
 | [Day 12: 🚧 ]()| | |
